@@ -116,9 +116,9 @@ object Q2 extends LegoRunner {
       val x63 = x4 = x62
       x63
     }
-    val x65 = Loader.fileLineCount("/home/florian/Documents/tpch_testdata/sf1/partsupp.tbl")
+    val x65 = Loader.fileLineCount("/mnt/ramdisk/sf1/partsupp.tbl")
     val x66 = new Array[PARTSUPPRecord](x65)
-    val x67 = new K2DBScanner("/home/florian/Documents/tpch_testdata/sf1/partsupp.tbl")
+    val x67 = new K2DBScanner("/mnt/ramdisk/sf1/partsupp.tbl")
     var x68: Int = 0
     val x91 = while({
       val x69 = x68
@@ -151,9 +151,9 @@ object Q2 extends LegoRunner {
       val x90 = x68 = x89
       x90
     }
-    val x92 = Loader.fileLineCount("/home/florian/Documents/tpch_testdata/sf1/nation.tbl")
+    val x92 = Loader.fileLineCount("/mnt/ramdisk/sf1/nation.tbl")
     val x93 = new Array[NATIONRecord](x92)
-    val x94 = new K2DBScanner("/home/florian/Documents/tpch_testdata/sf1/nation.tbl")
+    val x94 = new K2DBScanner("/mnt/ramdisk/sf1/nation.tbl")
     var x95: Int = 0
     val x124 = while({
       val x96 = x95
@@ -193,9 +193,9 @@ object Q2 extends LegoRunner {
       val x123 = x95 = x122
       x123
     }
-    val x125 = Loader.fileLineCount("/home/florian/Documents/tpch_testdata/sf1/region.tbl")
+    val x125 = Loader.fileLineCount("/mnt/ramdisk/sf1/region.tbl")
     val x126 = new Array[REGIONRecord](x125)
-    val x127 = new K2DBScanner("/home/florian/Documents/tpch_testdata/sf1/region.tbl")
+    val x127 = new K2DBScanner("/mnt/ramdisk/sf1/region.tbl")
     var x128: Int = 0
     val x156 = while({
       val x129 = x128
@@ -234,9 +234,9 @@ object Q2 extends LegoRunner {
       val x155 = x128 = x154
       x155
     }
-    val x157 = Loader.fileLineCount("/home/florian/Documents/tpch_testdata/sf1/supplier.tbl")
+    val x157 = Loader.fileLineCount("/mnt/ramdisk/sf1/supplier.tbl")
     val x158 = new Array[SUPPLIERRecord](x157)
-    val x159 = new K2DBScanner("/home/florian/Documents/tpch_testdata/sf1/supplier.tbl")
+    val x159 = new K2DBScanner("/mnt/ramdisk/sf1/supplier.tbl")
     var x160: Int = 0
     val x206 = while({
       val x161 = x160
