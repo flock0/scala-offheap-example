@@ -34,9 +34,9 @@ object Q1 extends LegoRunner {
   }
   def main() = 
   {
-    val x1 = Loader.fileLineCount("/home/florian/Documents/tpch_testdata/sf0.1/lineitem.tbl")
+    val x1 = Loader.fileLineCount("/mnt/ramdisk/sf0.1/lineitem.tbl")
     val x2 = new Array[LINEITEMRecord](x1)
-    val x3 = new K2DBScanner("/home/florian/Documents/tpch_testdata/sf0.1/lineitem.tbl")
+    val x3 = new K2DBScanner("/mnt/ramdisk/sf0.1/lineitem.tbl")
     var x4: Int = 0
     val x52 = while({
       val x5 = x4
