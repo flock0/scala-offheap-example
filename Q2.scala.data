@@ -39,9 +39,9 @@ object Q2 extends LegoRunner {
   }
   def main() = 
   {
-    val x1 = Loader.fileLineCount("/home/florian/Documents/tpch_testdata/sf1/part.tbl")
+    val x1 = Loader.fileLineCount("/mnt/ramdisk/sf1/part.tbl")
     val x2 = EmbedArray.uninit[PARTRecord](x1)
-    val x3 = new K2DBScanner("/home/florian/Documents/tpch_testdata/sf1/part.tbl")
+    val x3 = new K2DBScanner("/mnt/ramdisk/sf1/part.tbl")
     var x4: Int = 0
     val x64 = while({
       val x5 = x4
